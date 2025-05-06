@@ -1,0 +1,282 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+background-image: url(https://inkythuatso.com/uploads/thumbnails/800/2023/03/hinh-anh-nu-ngoi-lam-viec-voi-may-tinh-5-14-10-37-12.jpg);
+height: 100vh;
+color: white;
+background-position: center;
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+
+
+.top-content{
+    flex: 1;
+    background: transparent;
+}
+
+
+.Card{
+    flex: 1;
+    background-color: white;
+    color: black;
+}
+    
+
+/* ............................Header.......................... */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px ;
+    font-weight: 200 ;
+    color: orange;
+
+}
+
+header nav ul  {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: white;
+    
+}
+ 
+nav ul a {
+    color: white;
+    font-weight: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: -30px;
+}
+
+.button{
+    display: flex;
+}
+
+.bar{
+    display: none;
+    font: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+    
+
+.button button {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    bottom: -30px;
+    border-radius: 7px;
+}
+
+#Register {
+    background-color: white;
+    color: orange;
+    
+}
+
+/* .....................Main.................................. */
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    
+    font-size: 50px;
+    top: -200px;
+}
+
+h2{
+    font-size:30px ;
+}
+
+.Center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    
+}
+.Center-button button {
+    background-color: orange;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: -300px;
+}
+/* ............More Button........... */
+
+.containerButton{
+    position: relative;
+    bottom: 950px;
+}
+
+.containerButton ul{
+    background-color: white;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+    
+
+}
+.containerButton ul button {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+   
+    
+}
+/* .........................Card.......................... */
+
+.TopCartegories{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: 950px;
+    
+}
+.Card {
+    width: 1241px;
+    height: 486px;
+    top: 169px;
+    left: 99px;
+    background-color: white;
+    justify-content: center;
+align-items: center;
+margin: 0 auto;
+position: relative;
+position: absolute;
+top: 700px;
+padding: 20px;
+
+
+
+}
+
+
+.Card nav {
+    width: 1241px;
+    height: 486px;
+top: 169px;
+left: 99px;
+display: flex;
+gap: 10px;
+
+
+
+}
+
+.box {
+    width: 291px;
+    height: 432px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUVmWnDidhSszb3Kqpmp6PQeCDyCY3moueRg&s);
+}
+.Ma{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfbfJu2SYp9TFHvWaePuKznDp-8k7lJRsLmw&s);
+}
+.De {
+    background-image: url(https://www.open.edu.au/-/media/blog/2022/10-october/software-developer-vs-engineer_edited.jpg?h=402&iar=0&w=715&rev=22dc593363e74d4285cb4042c8401af0&hash=A719998C2F009EC9F76F63BFCDFBD24A);
+}
+.Pro {
+    background-image: url(https://www.deepseadev.com/wp-content/uploads/2024/06/uses-of-python.jpg);
+}
+
+span{
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    font-style: italic;
+    
+    
+}
+
+.link a{
+    text-decoration:none ;
+}
+
+
+button.prev , button.next{
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10;
+    top: 125%;
+    position: absolute;
+}
+.prev{
+    left: 95px;
+}
+.next{
+    right: 160px;
+}
+
+@media ( max-width: 970px){
+    .container header nav ,
+    .container header button{
+        display: none;
+    }
+    
+}
+.bar{
+    display: block;
+}
+main {
+    flex-wrap:wrap-reverse ;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:510px){
+    main .title{
+        white-space: nowrap;
+    }
+    
+
+}
+
+
+
+
